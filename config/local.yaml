@@ -1,0 +1,11 @@
+http_server:
+  address: ":8000"
+  timeout: "2s"
+  iddle_timeout: "60s"
+storage:
+  type: "postgres"
+  host: "localhost"
+  port: 5435
+  user: "postgres"
+  password: "postgres"
+  dbname: "postgres"
